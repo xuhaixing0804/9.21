@@ -42,6 +42,11 @@
       var getElementsByTagName = document.getElementsByTagName("UL");
       console.log(getElementsByTagName);
     }
+    var  hasAttributeclick = document.getElementById("btn9");
+    hasAttributeclick.onclick = function(){
+      var hasAttribute = document.getElementById("u1").hasAttribute("class");
+      console.log(hasAttribute);
+    }
 
 
 
