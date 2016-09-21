@@ -32,7 +32,11 @@
       var  getAttributename = document.getElementById("u1").getAttribute("class");
       console.log(getAttributename);
     }
-
+    var  getAttributenodeclick = document.getElementById("btn7");
+    getAttributenodeclick.onclick = function(){
+      var getAttributenodename = document.getElementsByTagName("LI")[0].getAttributeNode("class");
+      console.log(getAttributenodename);
+    }
 
 
 
