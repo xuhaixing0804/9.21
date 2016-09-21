@@ -47,8 +47,12 @@
       var hasAttribute = document.getElementById("u1").hasAttribute("class");
       console.log(hasAttribute);
     }
-
-
+    var  hasAttributesclick = document.getElementById("btn10");
+    hasAttributesclick.onclick = function(){
+      var hasAttributes = document.getElementById("u1").hasAttributes();
+      console.log(hasAttributes);
+    }
+    
 
 
 
