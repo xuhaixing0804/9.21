@@ -62,6 +62,11 @@
       var innerHTML = document.getElementById("i2").innerHTML;
       console.log(innerHTML);
     }
+    var  removeAttributeclick = document.getElementById("btn13");
+    removeAttributeclick.onclick = function(){
+      var  removeAttribute = document.getElementById("i2").removeAttribute("style");
+      console.log(removeAttribute);
+    }
     
 
 
