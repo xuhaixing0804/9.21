@@ -22,6 +22,16 @@
       var classname = document.getElementById("u1").className;
       console.log(classname);
     }
+    var firstChildclick = document.getElementById("btn5");
+    firstChildclick.onclick = function(){
+      var  firstChildname = document.getElementById("u1").firstChild;
+      console.log(firstChildname);
+    }
+    var getAttributeclick = document.getElementById("btn6");
+    getAttributeclick.onclick = function(){
+      var  getAttributename = document.getElementById("u1").getAttribute("class");
+      console.log(getAttributename);
+    }
 
 
 
