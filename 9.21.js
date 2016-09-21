@@ -52,6 +52,11 @@
       var hasAttributes = document.getElementById("u1").hasAttributes();
       console.log(hasAttributes);
     }
+    var  hasChildNodesclick = document.getElementById("btn11");
+    hasChildNodesclick.onclick = function(){
+      var hasChildNodes = document.getElementById("i2").hasChildNodes();
+      console.log(hasChildNodes);
+    }
     
 
 
