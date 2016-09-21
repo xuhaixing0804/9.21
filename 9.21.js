@@ -37,6 +37,11 @@
       var getAttributenodename = document.getElementsByTagName("LI")[0].getAttributeNode("class");
       console.log(getAttributenodename);
     }
+    var getElementsByTagNameclick = document.getElementById("btn8");
+    getElementsByTagNameclick.onclick = function(){
+      var getElementsByTagName = document.getElementsByTagName("UL");
+      console.log(getElementsByTagName);
+    }
 
 
 
