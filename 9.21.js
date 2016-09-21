@@ -9,8 +9,13 @@
     }
     var attributesclick = document.getElementById("btn2");
     attributesclick.onclick = function(){
-      var attributesnode = document.getElementsByTagName("Ul")[0].attributes;
+      var attributesnode = document.getElementsByTagName("UL")[0].attributes;
       console.log(attributesnode);
+    }
+    var childnodesclick = document.getElementById("btn3");
+    childnodesclick.onclick = function(){
+     var childNode = document.getElementsByTagName("UL")[0].childNodes;
+     console.log(childNode);
     }
 
 
