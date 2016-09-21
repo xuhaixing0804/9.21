@@ -17,6 +17,11 @@
      var childNode = document.getElementsByTagName("UL")[0].childNodes;
      console.log(childNode);
     }
+    var classnameclick = document.getElementById("btn4");
+    classnameclick.onclick = function(){
+      var classname = document.getElementById("u1").className;
+      console.log(classname);
+    }
 
 
 
