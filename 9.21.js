@@ -74,7 +74,11 @@
        var removeAttributeNode = getElementById.removeAttributeNode(getAttributenode);
       console.log(removeAttributeNode);
     }
-    
+    var removeChildclick = document.getElementById("btn15");
+    removeChildclick.onclick = function(){
+      var removeChild = document.getElementById("u1").removeChild(document.getElementById("u1").childNodes[0]);
+      console.log(removeChild);
+    }
 
 
 
