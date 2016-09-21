@@ -67,6 +67,13 @@
       var  removeAttribute = document.getElementById("i2").removeAttribute("style");
       console.log(removeAttribute);
     }
+    var  removeAttributenodeclick = document.getElementById("btn14");
+    removeAttributenodeclick.onclick = function(){
+       var getElementById = document.getElementById("i2");
+       var getAttributenode =getElementById.getAttributeNode("style");
+       var removeAttributeNode = getElementById.removeAttributeNode(getAttributenode);
+      console.log(removeAttributeNode);
+    }
     
 
 
