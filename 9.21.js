@@ -57,6 +57,11 @@
       var hasChildNodes = document.getElementById("i2").hasChildNodes();
       console.log(hasChildNodes);
     }
+    var innerHTMLclick = document.getElementById("btn12");
+    innerHTMLclick.onclick = function(){
+      var innerHTML = document.getElementById("i2").innerHTML;
+      console.log(innerHTML);
+    }
     
 
 
